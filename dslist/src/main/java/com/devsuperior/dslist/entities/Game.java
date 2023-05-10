@@ -38,7 +38,7 @@ public class Game {
 		this.genre = genre;
 		this.platforms = platforms;
 		this.score = score;
-		this.imgURL = imgURL;
+		this.imgUrl = imgURL;
 		this.shortDescription = shortDescription;
 		this.longDescription = longDescription;
 	}
@@ -80,10 +80,10 @@ public class Game {
 		this.score = score;
 	}
 	public String getImgURL() {
-		return imgURL;
+		return imgUrl;
 	}
 	public void setImgURL(String imgURL) {
-		this.imgURL = imgURL;
+		this.imgUrl = imgURL;
 	}
 	public String getShortDescription() {
 		return shortDescription;
